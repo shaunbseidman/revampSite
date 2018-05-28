@@ -8,8 +8,10 @@
       </div>
     </div>
     <section class="section section-light">
-      <h2>Section One</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Thanks for taking a look. I am a full stack developer with a passion for creating, problem solving and continuing to learn and grow. My previous experience in managing a small business and team building have helped to solidify my work techniques
+        with others and also instill a never-quit attitude. <br><br>I would love to establish myself in the web development world and believe my skills, as well as my willingness to learn, would make me a great candidate for a junior dev position. <br><br>Please
+        feel free to take a look at my resume below.<br> I look forward to talking and hopefully working together.
+      </p><br>
     </section>
 
 
@@ -51,5 +53,10 @@ export default {
   background-color: #111;
   color: white;
   padding: 20px;
+  background-color: transparent;
+
+}
+.ptext .border.trans {
+  background-color: transparent;
 }
 </style>

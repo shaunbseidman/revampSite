@@ -8,8 +8,16 @@
     </div>
   </div>
   <section class="section section-dark">
-    <h2>Section Three</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+    <form action="https://getsimpleform.com/messages?form_api_token=01178de3065ef85c5dd46493fabaf917" method="post">
+        Name:<br>
+        <input type="text" name= "Name: "><br>
+        E-mail:<br>
+        <input type="text" name="fart"><br>
+        Message:<br>
+        <input type="text" name="comment" height= 100 size="24"><br><br>
+        <input type='hidden' name='redirect_to' value='http://shut-effect.surge.sh/#/contact' />
+        <button v-on:click="formSubmitted" type='submit' name="button">Send an email to shaunseidman@gmail.com</button>
+      </form>
   </section>
 
 
