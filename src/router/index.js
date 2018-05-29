@@ -8,7 +8,6 @@ import splash from '@/components/splash'
 import BootstrapVue from 'bootstrap-vue'
 
 Vue.use(BootstrapVue);
-
 Vue.use(Router)
 Vue.component('splash', splash)
 Vue.component('about', about)
@@ -22,6 +21,7 @@ export default new Router({
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld
-    }
+    },
+    
   ]
 })

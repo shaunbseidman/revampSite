@@ -12,13 +12,14 @@
       <div class="project0">
         <h2>Pay It Forward</h2>
         <br>
-        <img class='fridgePic' src="../assets/fridge.gif" alt="fridge">
+        <img class='fridgePic' src="../assets/pay.gif" alt="fridge">
         <div>
+          <br>
           <b-button @click="modal0Show = !modal0Show">
             Learn More
           </b-button>
-          <b-modal v-model="modal0Show">
-            <h5>Technologies Used</h5>
+          <b-modal v-model="modal0Show" title="Pay It Forward">
+            <h5><b>Technologies Used</b></h5>
             <img class='techPic' src="../assets/swift.png" alt="">
             <img class='techPic' src="../assets/aws.png" alt="">
             <img class='techPic' src="../assets/realm.png" alt="">
@@ -38,12 +39,13 @@
         <br>
         <img class='fridgePic' src="../assets/fridge.gif" alt="fridge">
         <div>
+          <br>
           <b-button @click="modalShow = !modalShow">
             Learn More
           </b-button>
-          <b-modal v-model="modalShow">
+          <b-modal v-model="modalShow" title="Fridge Vision">
             <div class="tech">
-              <h5>Technologies Used</h5>
+              <h5><b>Technologies Used</b></h5>
               <img class='techPic' src="../assets/react.png" alt="">
               <img class='techPic' src="../assets/swift.png" alt="">
               <img class='techPic' src="../assets/js.png" alt="">
@@ -67,12 +69,13 @@
         <br>
         <img class="personal" src="../assets/ss.png" alt="personal">
         <div>
+          <br>
           <b-button @click="modal2Show = !modal2Show">
             Learn More
           </b-button>
-          <b-modal v-model="modal2Show">
+          <b-modal v-model="modal2Show" title="shaunseidman.com">
             <div class="tech">
-              <h5>Technologies Used</h5>
+              <h5><b>Technologies Used</b></h5>
               <img class='techPic' src="../assets/logo.png" alt="">
               <img class='techPic' src="../assets/boot.png" alt="">
               <img class='techPic' src="../assets/js.png" alt="">
@@ -94,12 +97,13 @@
         <br>
         <img class="shoeGif" src="../assets/gif2.gif" alt="shoes">
         <div>
+          <br>
           <b-button @click="modal3Show = !modal3Show">
             Learn More
           </b-button>
-          <b-modal v-model="modal3Show">
+          <b-modal v-model="modal3Show" title="What's It Worth">
             <div class="tech">
-              <h5>Technologies Used</h5>
+              <h5><b>Technologies Used</b></h5>
               <img class='techPic' src="../assets/logo.png" alt="">
               <img class='techPic' src="../assets/cypress.png" alt="">
               <img class='techPic' src="../assets/js.png" alt="">
@@ -125,6 +129,7 @@ import {
 } from 'bootstrap-vue/es/components';
 
 export default {
+  name: "projects",
   data() {
     return {
       modal0Show: false,
@@ -136,6 +141,8 @@ export default {
 }
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
 .pimg2 {
   background-image: url('../assets/work.png');
   min-height: 400px;
@@ -147,7 +154,15 @@ export default {
 }
 
 .section-dark {
-  background-color: #282e34;
+  background-color: #426B61;
+
+  /* background-color: rgba(165, 228, 208, 0.5); */
+
+  /* background-color: rgba(126, 228, 208, 0.5); */
+
+  /* background-color: rgba(52, 48, 70, 0.5); */
+
+  /* background-color: #282e34; */
   color: #ddd;
 }
 
@@ -161,19 +176,19 @@ export default {
 }
 
 .fridgePic {
-  height: 299px;
+  height: 269px;
   width: 140px;
   border-radius: 24px;
 }
 
 .personal {
-  height: 300px;
-  width: 480px;
+  height: 269px;
+  width: 450;
 }
 
 .shoeGif {
-  height: 300px;
-  width: 480px;
+  height: 269px;
+  width: 450;
 }
 
 .ptext {
@@ -208,6 +223,32 @@ export default {
   cursor: pointer;
 }
 
+h2{
+  line-height: 1.8em;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+
+  /* font-weight: 600; */
+}
+@media screen and (max-width: 1370px){
+  .projectInfo {
+    display: block;
+    max-height: 100%;
+    width: 100%;
+    align-items: center;
+    overflow-y: auto;
+    position: relative;
+  }
+  .personal {
+    height: 100%;
+    width: 100%;
+  }
+  .shoeGif {
+    height: 100%;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 600px) {
   .projectInfo {
     display: block;

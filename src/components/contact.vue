@@ -15,8 +15,8 @@
         <input type="text" name="fart"><br>
         Message:<br>
         <input type="text" name="comment" height= 100 size="24"><br><br>
-        <input type='hidden' name='redirect_to' value='http://shut-effect.surge.sh/#/contact' />
-        <button v-on:click="formSubmitted" type='submit' name="button">Send an email to shaunseidman@gmail.com</button>
+        <input type='hidden' name='redirect_to' value='http://shaunseidman.com' />
+        <button class="btn btn-secondary" v-on:click="formSubmitted" type='submit' name="button">Let's Get In Touch</button>
       </form>
   </section>
 
@@ -41,7 +41,13 @@ export default {
   padding: 50px 80px;
 }
 .section-dark{
-  background-color: #282e34;
+  background-color: #426B61;
+
+  /* background-color: rgba(165, 228, 208, 0.5); */
+
+  /* background-color: #282e34; */
+  /* background-color: rgba(52, 48, 70, 0.5); */
+
   color: #ddd;
 }
 .ptext{

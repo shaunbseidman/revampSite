@@ -1,47 +1,18 @@
 <template>
 <div id="splash">
   <div class="ptext">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarColor02">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
     <div id="particleJS-container">
     </div>
-    <div class="circleContainer">
-
-
-
+    <div class="circleText">
+      <div class="hero-text">
+        <div class="textBox">
+          <h1>SHAUN SEIDMAN</h1>
+          <hr>
+          <h4>Full Stack Developer</h4>
+        </div>
     </div>
-    <!-- <div class="hero-text">
-    <div class="textBox">
-    <h1>Shaun Seidman</h1>
-    <hr>
-    <h4>Full Stack Developer</h4>
-  </div>
-</div> -->
+    </div>
+
 
   </div>
 </div>
@@ -174,106 +145,58 @@ export default {
 }
 </script>
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
 #particleJS-container {
   height: 100vh;
   z-index: 0;
 }
-/**
- * Demo Styles
- */
-
-html {
-  box-sizing: border-box;
+h1{
+  color: black;
 }
-
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
+h4{
+  color:black;
 }
-
-html {
-  min-height: 100%;
-}
-
-body {
-  margin: 64px auto;
-  max-width: 640px;
-  width: 94%;
-  text-align: center;
-}
-
-/**
- * Circle Styles
- */
-
-.circle {
-  position: relative;
-  display: block;
-  margin: 2em 0;
-  background-color: transparent;
-  color: #222;
-  text-align: center;
-}
-
-.circle:after {
-  display: block;
-  padding-bottom: 100%;
-  width: 100%;
-  height: 0;
-  border-radius: 50%;
-  background-color: #ddd;
-  content: "";
-}
-
-.circle__inner {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.circle__wrapper {
-  display: table;
-  width: 100%;
-  height: 100%;
-}
-
-.circle__content {
-  display: table-cell;
-  padding: 1em;
-  vertical-align: middle;
-}
-
-@media (min-width: 480px) {
-  .circle__content {
-    font-size: 2em;
+ .textBox {
+   /* margin: 10px; */
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+ .hero-text {
+   align-items: center;
+   font-size: 40px;
+   width: 400px;
+   height: 400px;
+   -moz-border-radius: 200px;
+   -webkit-border-radius: 200px;
+   border-radius: 200px;
+   background-color: #C9D4CB;
+   opacity: 0.78;
+   filter: alpha(opacity=70);
+   font-weight: bold;
+   font-family: 'Open Sans', sans-serif;
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+ }
+@media screen and (max-width: 600px) {
+  .hero-text{
+    width: 300px;
+    height: 300px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    border-radius: 200px;
+  }
+  .textBox{
+    font-size: 25px;
   }
 }
 
-@media (min-width: 768px) {
-  .circle__content {
-    font-size: 4em;
-  }
-}
-.centerCircle{
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  text-transform: uppercase;
-  margin: 0;
-  text-align: center;
-}
-#badge {
-  /* height: 100px;
-  width: 100px;
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 50%;
-  background: yellow; */
-}
 
 </style>
