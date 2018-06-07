@@ -10,6 +10,7 @@
   <section class="section section-light">
     <p>Thanks for taking a look. I am a full stack developer with a passion for creating, problem solving and continuing to learn and grow. My previous experience in managing a small business and team building, coupled with my passion for learning make me
       an asset to any team.
+      <hr>
       <br>
       <br>
       <ul class="stuffAboutMe">
@@ -81,12 +82,13 @@ export default {
 }
 
 .section-light {
-  background-color: #426B61;
+  background-color: rgb(248,245,240);
+  /* background-color: #426B61; */
   /* background-color: rgba(165, 228, 208, 0.5); */
   /* background-color: rgba(126, 228, 208, 0.5); */
   /* background-color: rgba(52, 48, 70, 0.5); */
   /* background-color: #282e34; */
-  color: #ffffff;
+  /* color: #ffffff; */
   font-family: 'Open Sans', sans-serif;
 
 }

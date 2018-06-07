@@ -154,7 +154,7 @@ export default {
 }
 
 .section-dark {
-  background-color: #426B61;
+  background-color: rgb(42,44,56);
 
   /* background-color: rgba(165, 228, 208, 0.5); */
 

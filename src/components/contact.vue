@@ -8,16 +8,18 @@
     </div>
   </div>
   <section class="section section-dark">
-    <form action="https://getsimpleform.com/messages?form_api_token=01178de3065ef85c5dd46493fabaf917" method="post">
-        Name:<br>
-        <input type="text" name= "Name: "><br>
-        E-mail:<br>
-        <input type="text" name="fart"><br>
-        Message:<br>
-        <input type="text" name="comment" height= 100 size="24"><br><br>
-        <input type='hidden' name='redirect_to' value='http://shaunseidman.com' />
-        <button class="btn btn-secondary" v-on:click="formSubmitted" type='submit' name="button">Let's Get In Touch</button>
-      </form>
+      <form action="https://getsimpleform.com/messages?form_api_token=01178de3065ef85c5dd46493fabaf917" method="post">
+          Name:<br>
+          <input type="text" name= "Name: "><br>
+          E-mail:<br>
+          <input type="text" name="fart"><br>
+          Message:<br>
+          <input type="text" name="comment" height= 100 size="24"><br><br>
+          <input type='hidden' name='redirect_to' value='http://shaunseidman.com' />
+          <button class="btn btn-secondary" v-on:click="formSubmitted" type='submit' name="button">Let's Get In Touch</button>
+        </form>
+
+
   </section>
 
 
@@ -41,7 +43,7 @@ export default {
   padding: 50px 80px;
 }
 .section-dark{
-  background-color: #426B61;
+  background-color: rgb(42,44,56);
 
   /* background-color: rgba(165, 228, 208, 0.5); */
 
