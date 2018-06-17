@@ -154,7 +154,8 @@ export default {
 }
 
 .section-dark {
-  background-color: rgb(42,44,56);
+  background-color: rgb(226, 189,192);
+  /* background-color: rgb(42,44,56); */
 
   /* background-color: rgba(165, 228, 208, 0.5); */
 
@@ -163,7 +164,7 @@ export default {
   /* background-color: rgba(52, 48, 70, 0.5); */
 
   /* background-color: #282e34; */
-  color: #ddd;
+  color: rgb(46,48,106);
 }
 
 .projectInfo {

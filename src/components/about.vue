@@ -82,7 +82,10 @@ export default {
 }
 
 .section-light {
-  background-color: rgb(248,245,240);
+  background-color: rgb(249, 235, 197);
+  color: rgb(46,48,106);
+
+  /* background-color: rgb(248,245,240); */
   /* background-color: #426B61; */
   /* background-color: rgba(165, 228, 208, 0.5); */
   /* background-color: rgba(126, 228, 208, 0.5); */

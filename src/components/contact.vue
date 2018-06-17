@@ -43,14 +43,16 @@ export default {
   padding: 50px 80px;
 }
 .section-dark{
-  background-color: rgb(42,44,56);
+  background-color: rgb(147,209,238);
+  color: rgb(46,48,106);
+  /* background-color: rgb(42,44,56); */
 
   /* background-color: rgba(165, 228, 208, 0.5); */
 
   /* background-color: #282e34; */
   /* background-color: rgba(52, 48, 70, 0.5); */
 
-  color: #ddd;
+  /* color: #ddd; */
 }
 .ptext{
   position: absolute;
