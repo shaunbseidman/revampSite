@@ -14,7 +14,7 @@
       <br>
       <br>
       <ul class="stuffAboutMe">
-        <li><b>My Strengths:</b> I am a developer who can write clean code, handle big data transformations, desigin intuitive user interfaces and have demonstrated success working with a team.</li>
+        <li><b>My Strengths:</b> I am a developer who can write clean code, handle big data transformations, design intuitive user interfaces and have demonstrated success working with a team.</li>
         <li><b>Most Successfull Dev Project:</b> Pay It Forward, a native iOS app that works with local non-profits to help find items needed for donation.</li>
         <li><b>Currently:</b> Seeking a position as a web developer here in Denver, Colorado</li>
       </ul>
