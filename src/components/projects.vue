@@ -164,7 +164,8 @@ export default {
   /* background-color: rgba(52, 48, 70, 0.5); */
 
   /* background-color: #282e34; */
-  color: rgb(46,48,106);
+  /* color: rgb(46,48,106); */
+  color: white;
 }
 
 .projectInfo {
