@@ -8,8 +8,8 @@
     </div>
   </div>
   <section class="section section-light">
-    <p>Thanks for taking a look. I am a full stack developer with a passion for creating, problem solving and continuing to learn and grow. My previous experience in managing a small business and team building, coupled with my passion for learning make me
-      an asset to any team.
+    <p>
+Thanks for taking a look. I am a full stack developer with a passion for creating and problem solving. My previous experience in managing a small business and team building, coupled with my desire to learn more make me an asset to any team
       <hr>
       <br>
       <br>
