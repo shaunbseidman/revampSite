@@ -141,6 +141,8 @@ p {
   }
   .pimg1{
     background-image: url('../assets/shaun2.jpeg');
+    /* max-height: 500px;
+    max-width: 75em; */
   }
   .section-dark {
     display: flex;
