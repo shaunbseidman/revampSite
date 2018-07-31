@@ -139,6 +139,9 @@ p {
   .border.trans {
     display: flex;
   }
+  .pimg1{
+    background-image: url('../assets/shaun2.jpeg');
+  }
   .section-dark {
     display: flex;
     flex-direction: row;
